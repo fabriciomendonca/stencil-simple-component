@@ -1,0 +1,15 @@
+my-button button {
+  background: lightcoral;
+  border: 0;
+  box-sizing: border-box;
+  color: white;
+  margin: 32px;
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: opacity 300ms ease-out;
+}
+
+my-button button:disabled {
+  opacity: 0.5;
+}
